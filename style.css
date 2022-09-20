@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+#nav {
+    height: 100px;
+    width: 100%;
+}
+
 .nav {
     position: sticky;
     -webkit-sticky: sticky;
