@@ -1,4 +1,1 @@
-#force SSL on entire site
-RewriteEngine On 
-RewriteCond %{HTTPS} !=on
-RewriteRule ^/?(.*) https://mysite.com/$1 [R=301,L]
+ RewriteBase / RewriteEngine On RewriteCond %{REQUES_FILENAME} !-d RewriteCond %{REQUES_FILENAME}.html -f RewriteRule ^(.*)$ $1.html
