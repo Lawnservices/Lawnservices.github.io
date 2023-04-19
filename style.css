@@ -22,7 +22,9 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .col {
     color: #256412;
     margin-left: 10px;
