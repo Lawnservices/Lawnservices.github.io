@@ -1,26 +1,7 @@
-*,
-*::before,
-*::after {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-#nav {
-    height: 100px;
-    width: 100%;
-}
-
-.nav {
-    position: sticky;
-    -webkit-sticky: sticky;
-    top: 0;
-}
-
-body {
-    padding: 0;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -46,18 +27,7 @@ html{
     color: rgb(116, 196, 144);
 }
 
-.nav {
-    background-color: #154256;
-    width: 100%;
-}
-
-.nav a {
-    text-decoration: none;
-    font-size: 2rem;
-    color: aliceblue;
-    margin-left: 20px;
-    list-style: none;
-}
+ 
 
 .logo {
     height: 100%;
@@ -105,10 +75,7 @@ h3 {
     color: #256412;
 }
 
-#mls {
-    border-radius: 0.2cm;
-}
-
+ 
 .fcn {
     color: green;
 }
@@ -238,6 +205,7 @@ h1 {
     font-weight: 400;
     font-size: 2rem;
     margin-left: 25%;
+    
 }
 
 .informe {
