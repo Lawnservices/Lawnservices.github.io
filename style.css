@@ -55,7 +55,14 @@ html{
 h3 {
     padding: 4px;
 }
-
+.projects-header{
+text-align: center;
+}
+.section-title{
+color: #256412;
+font-size:22px;
+ 
+}
 
 /*projects*/
 
@@ -235,6 +242,7 @@ h3 {
     text-align: center;
     margin-top: 20px;
 }
+ 
 
 @media (min-width:360px) and (max-width:430px) {
     #projects .project-item {

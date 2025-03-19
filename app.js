@@ -8,3 +8,12 @@ document.addEventListener('scroll', () => {
         nav.style.backgroundColor = '#154256'
     }
 });
+let fechas = document.querySelector('.fecha');
+if(fechas){
+    fechas.textContent = new Date().getFullYear();
+};
+let pie = document.querySelector('.piez');
+
+setTimeout(()=>{
+pie.textContent = 'Call Now';
+},6000)
