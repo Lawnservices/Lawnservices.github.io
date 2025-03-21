@@ -10,6 +10,7 @@ body{
   animation: cavesa linear both;
   animation-timeline: scroll(root block);
   animation-range: 0 200px;
+  z-index: 1;
 }
 @keyframes cavesa{
 to{
