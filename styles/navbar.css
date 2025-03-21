@@ -7,7 +7,18 @@ body{
   position: sticky;
   -webkit-sticky: sticky;
   top: 0;
+  animation: cavesa linear both;
+  animation-timeline: scroll(root block);
 }
+@keyframes cavesa{
+to{
+background: rgba(225, 225, 255, .4);
+backdrop-filter: blur(5px);
+ 
+}
+
+}
+
 .navbar ul{
 margin: 0;
 padding: 0;
@@ -25,9 +36,23 @@ li a{
   padding: 17px 17px;
   color: #fff;
   font-size: 1.8rem;
-
+ 
 }
 li a:hover{
-  color: #fff;
-  
+color: aliceblue;
+
 }
+.scroll{
+position: fixed;
+top: 0;
+background: #154256;
+height: 0.5em;
+animation: progress auto linear;
+animation-timeline: scroll(root block);
+} 
+
+@keyframes progress{
+from{ width: 0%}
+to{width: 100%}
+}
+ 
