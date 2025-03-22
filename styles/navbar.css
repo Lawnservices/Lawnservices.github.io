@@ -51,6 +51,7 @@ background: #154256;
 height: 0.5em;
 animation: progress auto linear;
 animation-timeline: scroll(root block);
+z-index: 100;
 } 
 
 @keyframes progress{
