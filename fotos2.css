@@ -69,3 +69,18 @@
         float: left;
         margin-left: 14px;
     }}
+
+.customer {
+background: linear-gradient(green 1.4%, white 88.47%);
+width: 96%;
+height:140px;
+margin-left: auto;
+margin-right: auto;
+border-top-right-radius: 0.2rem;
+border-top-left-radius: 0.2rem;
+}    
+.customer h2{
+text-align: center;
+text-transform:capitalize;
+padding: 12px;
+}
